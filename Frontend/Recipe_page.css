@@ -1,0 +1,345 @@
+*{
+    border-spacing: 0px;
+    width: 100%;
+}
+
+body{
+    background-color: hsl(30, 18%, 87%);
+    margin: auto;
+}
+
+main{
+    width: 30%;
+    margin: 50px auto;
+    padding:20px;
+    border-radius: 5px;
+    background-color: white;
+    padding-bottom: 0%;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+}
+
+img{
+    border-radius: 5px;
+}
+
+#one h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px 0;
+}
+
+#one p{
+    text-align: start;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    padding-bottom: 20px;
+}
+
+span{
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#two{
+    border-radius: 5px;
+    background-color: hsl(332, 51%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    padding: 2px 0;
+    margin-top: auto;
+    margin-top: 5%;
+}
+
+#two h3{
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+    width: auto;
+}
+
+ul{
+    width:auto;
+    color: hsl(332, 51%, 32%);
+}
+
+#two li{
+    padding-bottom: 8px;
+    width: inherit;
+}
+
+#two li:last-child{
+    padding-bottom: 0;
+}
+
+#three h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+#three ul{
+    padding-left: 15px;
+    margin-top: 0;
+}
+
+#three li{
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 8px;
+    width: inherit;
+    color: hsl(24, 5%, 18%);
+}
+
+#three li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+#four h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#four ol{
+    margin-top: 0;
+    padding: 0 0 0 20px;
+  
+}
+
+#four ol li{
+    padding-right: 0;
+    width: inherit;
+    font-family: "Outfit", sans-serif;
+}
+
+#four li{
+    padding-bottom: 8px;
+}
+
+#four li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding-right: 0;
+}
+
+#fourth p{
+    padding-left: 15px;
+    width: inherit;
+    margin: 0;
+}
+#fourth span{
+    padding: 0;
+}
+
+#five h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#five p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+}
+
+#five td{
+    width: 50%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.values:last-child{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+table tr td{
+    border-bottom: 1px solid rgb(214, 205, 205);
+}
+
+.attribution {
+    font-size: 11px;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* Media queries */
+@media screen and (max-width: 1024px){
+       
+    main{
+        width: 50%;
+        margin:50px auto;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    #one p{
+        padding-bottom: 20px;
+    }
+    .attribution{
+        padding: 0 0 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    main{
+        width: 65%;
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #one p {
+        text-align: start;
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: smaller;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    } 
+    .attribution{
+        padding: 0 0 10px 0;
+    }
+
+
+}
+
+@media screen and (max-width: 425px){  
+    main{
+        width: 80%;
+        margin: 15px auto;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .attribution{
+        padding: 0 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 375px){  
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 10px;
+        border-radius: 5px;
+    }
+    img{
+        border-radius: 0; 
+    }
+
+    #one{
+        width: fit-content;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #one h2{
+        width: 90%;
+        font-weight: 400;
+        font-style: normal;
+        font-size:xx-large;
+        margin: 10px 0;
+        
+    }
+    #one p {
+        text-align: justify;
+        font-weight: 400;
+        font-style: normal;
+        font-size: medium;
+        height: max-content;
+    } 
+    #two{
+        border-radius: 5px;
+        font-weight: 400;
+        font-style: normal;
+        font-size: medium;
+        padding: 2px 0;
+        margin: 30px;
+        width: 80%;
+    }
+
+    ul{
+        width: auto;
+        padding: 0 0 0 50px;
+    }
+    ol{
+        width: auto;
+    }
+    #two li{
+        padding-bottom: 8px;
+        width: 80%;
+    }
+    
+    #two li:last-child{
+        padding-bottom: 0;
+    }
+
+    #three{
+        margin: 0  0 0 30px;
+        width: auto;
+    }
+    #three h2{
+        font-size: xx-large;
+    }
+    
+    #three ul{
+        font-size: medium;
+    }
+    #four{
+        margin: 0 30px 0 30px;
+        width: auto;
+    }
+    #four h2{
+        font-size: xx-large;
+    }
+    
+    #four ol{
+        font-size: medium;      
+    }
+    #five{
+        margin: 0 30px 0 30px;
+        width: auto;
+    }
+    hr{
+        margin: 0 30px 0 30px;
+        width: auto; 
+    }
+    #five h2{
+        font-size: xx-large;
+    }
+    #five p{
+        font-size: medium;
+    }
+    
+    #five td{
+        font-size: medium;
+    }
+    .attribution{
+        padding: 10px 0;
+    }
+}
