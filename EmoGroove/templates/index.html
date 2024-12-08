@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>EmoGroove</title>
+  <link rel="stylesheet" href='../static/css/style.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="../static/images/logo.png" alt="logo" />
+    </div>
+    <ul class="navbar-list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/chat">Listen Now</a></li>
+      <li><a href="#about-section">About EmoGroove</a></li>
+      <li><a href="#contact-section">Contact Us</a></li>
+
+      {% if 'username' in session %}
+            <li><a href="{{ url_for('logout') }}">Logout</a></li>
+        {% else %}
+            <li><a href="{{ url_for('login') }}">Login</a></li>
+            <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+        {% endif %}
+    </ul>
+  </nav>  
+
+  <div class="background-overlay-text">
+    <h1>Welcome To EmoGroove</h1>
+    <h2>Feel the Beat, Find Your Mood</h2>
+    <h3>EmoGroove helps you discover music that resonates with your emotions. 
+    Simply tell us how you feel, choose your language, and get personalized song recommendations in Tamil, Hindi, English, Telugu, or Malayalam.</h3>
+  </div>
+
+  <div class="container">
+    <div>
+      <div class="content">
+        <h1>Tamil</h1>
+        <p>Dive into the rhythm of Tamil beats, from soulful melodies to energetic hits</p>
+      </div>
+    </div>
+    <div>
+      <div class="content">
+        <h1>Hindi</h1>
+        <p>Feel the magic of Hindi music, where every emotion finds a song</p>
+      </div>
+    </div>
+    <div>
+      <div class="content">
+        <h1>Telugu</h1>
+        <p>Celebrate Telugu tunes with timeless classics and chart-topping tracks</p>
+      </div>
+    </div>
+    <div>
+      <div class="content">
+        <h1>Malayalam</h1>
+        <p>Discover the essence of Malayalam music, soothing and inspiring</p>
+      </div>
+    </div>
+    <div>
+      <div class="content">
+        <h1>English</h1>
+        <p>Experience the world of English music, spanning genres and generations</p>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="../static/images/logo.png" alt="EmoGroove Logo" />
+      </div>
+  
+      <div id="about-section" div class="footer-about">
+        <h3>About EmoGroove</h3>
+        <p>EmoGroove is your personalized music companion, helping you discover songs that resonate with your emotions in multiple languages. Feel the beat, find your mood!</p>
+      </div>
+  
+      <div id="contact-section" div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Email: support@emogroove.com</p>
+        <p>Phone: +91 123456780</p>
+        <p>Address: 123 Music Lane, Melody City, 45678</p>
+      </div>
+    </div>
+  </footer>  
+  
+
+</body>
