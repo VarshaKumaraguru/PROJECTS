@@ -10,9 +10,9 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pickle
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'supersecretkeythatshouldbehardtoguess'
+app.config['SECRET_KEY'] = ''
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:1234@localhost/emogroove_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:pwd@localhost/emogroove_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -32,8 +32,8 @@ with open(r'models\label_encoder.pkl', 'rb') as handle:
 
 max_length = 100
 
-client_id = '6ae166a3ffd34a7da59b1da9bf626f35'
-client_secret = '0fbb8f152cdb455eb56fe05fdd21f7d3'
+client_id = ''
+client_secret = ''
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=client_id, client_secret=client_secret))
 
 def recommend_songs(emotion, language):
