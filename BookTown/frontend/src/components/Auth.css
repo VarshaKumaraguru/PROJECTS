@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Mark");
+
+body{ 
+    background-image: url('../assets/images/bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.auth-container {
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  color:black;
+  padding: 20px;
+  background-color: rgb(225,225,225,0.5);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+  color: mediumvioletred;
+  margin-bottom: 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: mediumvioletred;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.auth-container button {
+  background-color: mediumvioletred;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c71585;
+}
+
+.auth-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.auth-footer a {
+  color: mediumvioletred;
+  text-decoration: none;
+}
+
+.auth-footer a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+button {
+  background-color: mediumvioletred;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c71585;
+}

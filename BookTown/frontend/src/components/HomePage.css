@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Permanent+Mark");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kaushan Script", serif;
+  background-image: url('../assets/images/bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  color: white;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100%;
+}
+
+.content-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.heading-container h1 {
+  font-size: 3.5rem;
+  margin: 20px 0;
+}
+
+.heading-container h2 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  color: white;
+}
+
+.button-container {
+  margin: 30px 0;
+}
+
+.home-button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 50%; 
+  background-color: mediumvioletred;
+  color: white;
+  font-family: 'Kaushan Script', cursive;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+  background-color: #c71585;
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: rgba(225, 225, 225, 0.5); 
+  color: #333;;
+  padding: 65px 20px;
+  margin-top: 50px;
+  width: 1480px;
+  position: relative;
+  bottom: 0;
+  border-radius: 30px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.footer-logo img {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.footer-about,
+.footer-contact {
+  flex: 0;
+  min-width: 250px;
+}
+
+.footer-about h3,
+.footer-contact h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-about p,
+.footer-contact p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
