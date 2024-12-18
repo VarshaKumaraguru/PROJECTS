@@ -2,13 +2,18 @@
 
 Booktown:
 
-Built a GUI application for buying and selling books.
-Used Tkinter and Python for developing the interface and SQL to collect information from the
-users.
+BookTown is a platform where book enthusiasts can buy and lend books—whether standard or collectible editions—explore upcoming book events, and write reviews for books they've read.
+
+Tech Stack Used:
+Frontend: React.js for dynamic UI, Node.js for server-side rendering
+Backend: Flask for smooth and scalable server
+Database: PostgreSQL to manage book data, user profiles, events and reviews
 
 EmoGroove
 
-Built a website which recommends songs by identifying the emotion of the user from the textual prompt
-Used HTML, CSS, JS for the frontend
-Used PostgresSQL for storing user information
-Used Flask for backend
+EmoGroove is a website which recommends songs by identifying the emotion of the user from the textual prompt
+
+Tech Stack used:
+HTML, CSS, JS for the frontend
+PostgresSQL for storing user information
+Flask for backend
