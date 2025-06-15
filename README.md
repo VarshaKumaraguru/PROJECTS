@@ -1,19 +1,32 @@
-# PROJECTS
+# 📚 Booktown – Bookstore Management Web App
 
-Booktown:
+**Booktown** is a modern, full-stack bookstore management system built to streamline book inventory, user interaction, and data handling. Designed with a modular architecture, it allows users to browse, manage, and interact with a collection of books through a clean and responsive interface.
 
-BookTown is a platform where book enthusiasts can buy and lend books—whether standard or collectible editions—explore upcoming book events, and write reviews for books they've read.
+---
 
-Tech Stack Used:
-Frontend: React.js for dynamic UI, Node.js for server-side rendering
-Backend: Flask for smooth and scalable server
-Database: PostgreSQL to manage book data, user profiles, events and reviews
+## 🔍 Project Overview
 
-EmoGroove
+**Booktown** allows:
+- 📘 Browsing a digital book inventory
+- 📝 Admin-side management of books (add, update, delete)
+- 🔍 Searching and filtering by title, author, genre, or price; Search for events related to books near you
+- 👥 User registration and login
+- 📊 Backend integration with PostgreSQL for persistent storage
 
-EmoGroove is a website which recommends songs by identifying the emotion of the user from the textual prompt
+---
 
-Tech Stack used:
-HTML, CSS, JS for the frontend
-PostgresSQL for storing user information
-Flask for backend
+## 🧩 Tech Stack
+
+| Layer       | Technology              |
+|-------------|--------------------------|
+| **Frontend**  | React.js |
+| **Backend**   | Flask (Python), Node.js          |
+| **Database**  | PostgreSQL              |
+
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/VarshaKumaraguru/PROJECTS/booktown_project.git
+cd booktown_project
